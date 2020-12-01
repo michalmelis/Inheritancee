@@ -1,11 +1,19 @@
-package com.company;
+package model;
 
 public class Job {
-    private float salary;
-    private int bonus;
+    protected float salary;
+    protected int bonus;
     Jobs workers;
 
-    public Job(float salary,int bonus,Jobs workers){
+    public float getSalary() {
+        return salary;
+    }
+
+    public int getBonus() {
+        return bonus;
+    }
+
+    public Job(float salary, int bonus, Jobs workers){
 
         this.workers=workers;
         this.salary=salary;

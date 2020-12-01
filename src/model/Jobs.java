@@ -1,8 +1,9 @@
-package com.company;
+package model;
 
 public enum Jobs {
     TEACHER ("Teacher"),
-    PROGRAMMER ("Programmer");
+    PROGRAMMER ("Programmer"),
+    DRIVER("Driver"),;
 
     public String name;
 
